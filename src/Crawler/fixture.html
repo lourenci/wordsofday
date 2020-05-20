@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Fixture</title>
+  </head>
+  <body>
+    <div id='instant-content'>Instant content</div>
+
+    <script>
+      setTimeout(() => {
+        const div = document.createElement('div')
+        div.setAttribute('id', 'delayed-content')
+        const divContent = document.createTextNode('Delayed content')
+        div.appendChild(divContent)
+
+        document.body.appendChild(div)
+      }, 75)
+    </script>
+  </body>
+</html>
