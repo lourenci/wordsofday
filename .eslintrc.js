@@ -8,9 +8,4 @@ module.exports = {
     'standard',
     'plugin:jest/recommended'
   ],
-  parserOptions: {
-    ecmaVersion: 11
-  },
-  rules: {
-  }
 }
