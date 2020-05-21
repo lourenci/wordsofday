@@ -4,11 +4,7 @@
   "main": "index.js",
   "author": "Leandro Lourenci <leandro@lourenci.com>",
   "license": "MIT",
-  "dependencies": {
-    "node-pg-migrate": "^5.0.0",
-    "pg": "^8.2.1",
-    "puppeteer": "^3.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.0.0",
     "eslint-config-standard": "^14.1.1",
@@ -19,7 +15,8 @@
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "jest-circus": "^26.0.1"
+    "jest-circus": "^26.0.1",
+    "lerna": "^3.21.0"
   },
   "scripts": {
     "jest:watch": "jest --no-coverage --verbose --watch --runInBand --notify --notifyMode always",
