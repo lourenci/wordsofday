@@ -1,4 +1,4 @@
-function extractProp (prop) {
+function extractProp(prop) {
   return function (object) {
     return object[prop]
   }

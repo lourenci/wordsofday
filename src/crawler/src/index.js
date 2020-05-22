@@ -3,9 +3,9 @@ const extractProp = require('./utils/extractProp')
 const zip = require('./utils/zip')
 const sources = require('./sources')
 
-const extractUrl = extractProp('url');
+const extractUrl = extractProp('url')
 
-(async function () {
+;(async function () {
   const wordsOfDay = await Promise.all(sources.map(getTextBySelector))
   const urlsOfSources = sources.map(extractUrl)
 
