@@ -20,8 +20,7 @@
   },
   "scripts": {
     "jest:watch": "jest --no-coverage --verbose --watch --runInBand --notify --notifyMode always",
-    "migrate": "node-pg-migrate",
-    "lint": "eslint 'migrations/**/*.js' 'src/**/*.js'"
+    "lint": "eslint 'src/**/*.js'"
   },
   "husky": {
     "hooks": {
